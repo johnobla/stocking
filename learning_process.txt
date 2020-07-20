@@ -52,3 +52,10 @@ Discovered RailsInstaller.org and switched back to windows after recurring sassc
 
 Fixed a problem with sqlite3 fetching the wrong version in the gemfile
 
+Bootstrap refuses to import, found out I didn't include the gem entry for bootstrap!
+
+STILL GETTING SASSC issue
+
+Solved sassc issue by downgrading to version 2.1.0!!!
+
+Installed bootstrap on the back of this!
