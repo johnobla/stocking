@@ -69,3 +69,5 @@ Taught myself error handling using 'rescue' as the api version I'm using throws 
 Also handled a NoMethod error as the api is flaky with how it handles incorrect symbols
 
 Learnt more about Rails database abstraction
+
+Got user authentication working, pausing this lecture to start with testing + TDD
