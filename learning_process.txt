@@ -32,7 +32,7 @@ Searched the internet and found an open bug for this issue on saasc's github rep
 
 Found my own workaround by running Rails 5 instead of Rails 6
 
-    Commented my workaround on the github bug packaged
+    Commented my workaround on the github bug page
 
 Successfuly created my first Rails projects
 
@@ -59,3 +59,13 @@ STILL GETTING SASSC issue
 Solved sassc issue by downgrading to version 2.1.0!!!
 
 Installed bootstrap on the back of this!
+
+Latest push to GitHub flagged security issues, couldn't fix as they require the latest version of Rails
+
+    An older rails version must be used as it's what comes with the railinstaller.exe
+
+Taught myself error handling using 'rescue' as the api version I'm using throws an error instead of returning null
+
+Also handled a NoMethod error as the api is flaky with how it handles incorrect symbols
+
+Learnt more about Rails database abstraction
