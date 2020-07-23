@@ -32,7 +32,7 @@ Searched the internet and found an open bug for this issue on saasc's github rep
 
 Found my own workaround by running Rails 5 instead of Rails 6
 
-    Commented my workaround on the github bug page
+    Commented my workaround on the github bug page: https://github.com/sass/sassc-ruby/issues/209
 
 Successfuly created my first Rails projects
 
@@ -70,4 +70,6 @@ Also handled a NoMethod error as the api is flaky with how it handles incorrect 
 
 Learnt more about Rails database abstraction
 
-Got user authentication working, pausing this lecture to start with testing + TDD
+Got user authentication working
+
+Pausing this lecture to start with testing + TDD
