@@ -79,3 +79,7 @@ Below is a documentation of my learning process.
 1. Got user authentication working 🥳
 
 1. Pausing this lecture to start with testing + TDD ✅
+
+    ☝ _https://github.com/johnobla/tdd
+
+    ☝ _https://github.com/johnobla/tdd2
