@@ -38,7 +38,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     arel (8.0.0)
     ast (2.4.1)
@@ -80,6 +80,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.9.0)
     execjs (2.7.0)
+    ffi (1.13.1)
     ffi (1.13.1-x86-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -109,6 +110,8 @@ GEM
     minitest (5.14.1)
     netrc (0.11.0)
     nio4r (2.5.2)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x86-mingw32)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
@@ -118,7 +121,7 @@ GEM
     popper_js (1.16.0)
     powerpack (0.1.2)
     prettier (0.19.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     puma (3.12.6)
     rack (2.2.3)
     rack-test (1.1.0)
@@ -152,6 +155,10 @@ GEM
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
       railties (>= 4.2.0, < 6.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rest-client (2.0.2-x86-mingw32)
       ffi (~> 1.9)
       http-cookie (>= 1.0.2, < 2.0)
@@ -169,6 +176,8 @@ GEM
     rubyzip (1.3.0)
     sassc (2.1.0-x86-mingw32)
       ffi (~> 1.9)
+    sassc (2.1.0-x86_64-linux)
+      ffi (~> 1.9)
     sassc-rails (2.1.2)
       railties (>= 4.0.0)
       sassc (>= 2.0)
@@ -185,6 +194,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.3.13)
     sqlite3 (1.3.13-x86-mingw32)
     stock_quote (3.0.0)
       json
@@ -203,6 +213,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
+    unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x86-mingw32)
     unicode-display_width (1.7.0)
     warden (1.2.8)
@@ -220,6 +231,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   bootstrap (~> 4.5)
